@@ -29,6 +29,7 @@
     ],
     "rules": {
         "prettier/prettier": ["error", { "endOfLine": "auto" }],
-        "jsx-a11y/anchor-is-valid": "warn"
+        "jsx-a11y/anchor-is-valid": "warn",
+        "react/react-in-jsx-scope": "off"
     }
 }

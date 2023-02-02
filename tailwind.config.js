@@ -29,7 +29,6 @@ module.exports = {
     function ({ addComponents }) {
       addComponents({
         '.container': {
-          maxWidth: '100%',
           '@screen xl': {
             maxWidth: '960px'
           }

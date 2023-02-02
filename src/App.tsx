@@ -3,11 +3,13 @@ import { Route, Routes } from 'react-router-dom';
 import PrivateRoute from 'components/PrivateRoute';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
+import ScrollTop from 'components/ScrollTop';
 import { Home, Login } from 'pages';
 
 function App() {
   return (
     <div className="min-h-screen flex flex-col">
+      <ScrollTop />
       <Header />
       <div className="flex-1">
         <Routes>
