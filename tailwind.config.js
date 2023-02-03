@@ -22,6 +22,13 @@ module.exports = {
         gray: {
           400: '#777777'
         }
+      },
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'],
+        noto: ['Noto Sans JP', 'sans-serif']
+      },
+      backgroundImage: {
+        'primary-300/400': 'linear-gradient(180deg, #FFCC21 0%, #FF963C 100%)'
       }
     }
   },
@@ -34,6 +41,7 @@ module.exports = {
           }
         }
       });
-    }
+    },
+    require('@tailwindcss/line-clamp')
   ]
 };

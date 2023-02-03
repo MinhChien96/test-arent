@@ -5,5 +5,6 @@ export const API_ENDPOINT = process.env.REACT_APP_API_ENDPOINT;
 export const PATHS = {
   LOGIN: '/login',
   NOTFOUND: '/404',
-  HOME: '/'
+  HOME: '/',
+  COLUMN: '/column'
 };

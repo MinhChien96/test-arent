@@ -4,7 +4,8 @@ import PrivateRoute from 'components/PrivateRoute';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
 import ScrollTop from 'components/ScrollTop';
-import { Home, Login } from 'pages';
+import { Home, Login, Column, NotFound } from 'pages';
+import { PATHS } from 'configs';
 
 function App() {
   return (
@@ -14,14 +15,16 @@ function App() {
       <div className="flex-1">
         <Routes>
           <Route
-            path=""
+            path={PATHS.HOME}
             element={
               <PrivateRoute>
                 <Home />
               </PrivateRoute>
             }
           />
-          <Route path="/login" element={<Login />} />
+          <Route path={PATHS.LOGIN} element={<Login />} />
+          <Route path={PATHS.COLUMN} element={<Column />} />
+          <Route element={<NotFound />} />
         </Routes>
       </div>
       <Footer />
