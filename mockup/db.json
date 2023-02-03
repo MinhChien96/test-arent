@@ -56,5 +56,113 @@
       "title": "魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリ",
       "tags": ["#魚料理", "#和食", "#DHA"]
     }
+  ],
+  "rate": {
+    "percent": 75,
+    "date": "05/21"
+  },
+  "body-weight-fat": [
+    {
+      "month": "6月",
+      "weight": 100,
+      "fat": 100
+    },
+    {
+      "month": "7月",
+      "weight": 96,
+      "fat": 90
+    },
+    {
+      "month": "8月",
+      "weight": 80,
+      "fat": 85
+    },
+    {
+      "month": "9月",
+      "weight": 70,
+      "fat": 75
+    },
+    {
+      "month": "10月",
+      "weight": 60,
+      "fat": 65
+    },
+    {
+      "month": "11月",
+      "weight": 50,
+      "fat": 45
+    },
+    {
+      "month": "12月",
+      "weight": 45,
+      "fat": 55
+    },
+    {
+      "month": "1月",
+      "weight": 35,
+      "fat": 40
+    },
+    {
+      "month": "2月",
+      "weight": 20,
+      "fat": 30
+    },
+    {
+      "month": "3月",
+      "weight": 30,
+      "fat": 20
+    },
+    {
+      "month": "4月",
+      "weight": 40,
+      "fat": 10
+    },
+    {
+      "month": "5月",
+      "weight": 35,
+      "fat": 0
+    }
+  ],
+  "record": [
+    {
+      "id": 1,
+      "image": "http://localhost:3001/images/m01.jpg",
+      "time": "05.21.Morning"
+    },
+    {
+      "id": 2,
+      "image": "http://localhost:3001/images/m02.jpg",
+      "time": "05.21.Lunch"
+    },
+    {
+      "id": 3,
+      "image": "http://localhost:3001/images/m03.jpg",
+      "time": "05.21.Dinner"
+    },
+    {
+      "id": 4,
+      "image": "http://localhost:3001/images/m01.jpg",
+      "time": "05.21.Snack"
+    },
+    {
+      "id": 5,
+      "image": "http://localhost:3001/images/m02.jpg",
+      "time": "05.21.Morning"
+    },
+    {
+      "id": 6,
+      "image": "http://localhost:3001/images/m03.jpg",
+      "time": "05.21.Morning"
+    },
+    {
+      "id": 7,
+      "image": "http://localhost:3001/images/m01.jpg",
+      "time": "05.21.Morning"
+    },
+    {
+      "id": 8,
+      "image": "http://localhost:3001/images/m02.jpg",
+      "time": "05.21.Morning"
+    }
   ]
 }

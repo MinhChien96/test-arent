@@ -10,7 +10,6 @@ interface IProps {
 
 function PrivateRoute({ children, redirect = '/login' }: IProps) {
   const { pathname, search } = useLocation();
-  console.log(getToken());
   return getToken() ? (
     children
   ) : (

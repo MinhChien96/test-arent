@@ -34,13 +34,13 @@ function Header({}: Props) {
   return (
     <div className="flex justify-center items-center bg-dark-500">
       <div className="container">
-        <nav className=" text-light">
+        <nav className="text-light">
           <div className="container flex items-center justify-between mx-auto">
             <a href="#" className="flex items-center">
               <img src={Logo} className="h-full" alt="Logo" />
             </a>
             <div className="px-2 py-2 flex">
-              <ul className="flex flex-row justify-between">
+              <ul className="flex-row justify-between hidden md:flex">
                 {menus?.map((menu) => (
                   <li key={menu.id}>
                     <a

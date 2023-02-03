@@ -36,6 +36,11 @@ module.exports = {
     function ({ addComponents }) {
       addComponents({
         '.container': {
+          padding: '0 0.5rem',
+          '@screen md': {
+            maxWidth: '960px',
+            padding: '0rem'
+          },
           '@screen xl': {
             maxWidth: '960px'
           }

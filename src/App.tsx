@@ -12,7 +12,7 @@ function App() {
     <div className="min-h-screen flex flex-col">
       <ScrollTop />
       <Header />
-      <div className="flex-1">
+      <div className="flex-1 flex flex-col">
         <Routes>
           <Route
             path={PATHS.HOME}
