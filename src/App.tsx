@@ -4,7 +4,7 @@ import PrivateRoute from 'components/PrivateRoute';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
 import ScrollTop from 'components/ScrollTop';
-import { Home, Login, Column, NotFound } from 'pages';
+import { Home, Login, Column, NotFound, MyRecord } from 'pages';
 import { PATHS } from 'configs';
 
 function App() {
@@ -19,6 +19,14 @@ function App() {
             element={
               <PrivateRoute>
                 <Home />
+              </PrivateRoute>
+            }
+          />
+          <Route
+            path={PATHS.MY_RECORD}
+            element={
+              <PrivateRoute>
+                <MyRecord />
               </PrivateRoute>
             }
           />

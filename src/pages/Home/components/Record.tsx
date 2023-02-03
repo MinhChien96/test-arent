@@ -1,4 +1,5 @@
 import { Record as IRecord } from '@type';
+import ButtonMore from 'components/ButtonMore';
 
 type Props = {
   records: Array<IRecord>;
@@ -22,12 +23,7 @@ function Record({ records }: Props) {
           ))}
         </div>
         <div className="mt-8 mb-16 flex justify-center w-full">
-          <button
-            className="text-lg text-light py-4 px-14 bg-primary-300/400 rounded-md"
-            type="button"
-          >
-            記録をもっと見る
-          </button>
+          <ButtonMore>記録をもっと見る</ButtonMore>
         </div>
       </div>
     </div>

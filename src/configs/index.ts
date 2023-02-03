@@ -6,5 +6,6 @@ export const PATHS = {
   LOGIN: '/login',
   NOTFOUND: '/404',
   HOME: '/',
-  COLUMN: '/column'
+  COLUMN: '/column',
+  MY_RECORD: '/record'
 };

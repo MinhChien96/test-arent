@@ -1,5 +1,6 @@
 import { Post as IPost } from '@type';
 import Spinner from 'components/Spinner';
+import ButtonMore from 'components/ButtonMore';
 import Post from './Post';
 
 type Props = {
@@ -23,12 +24,7 @@ function Posts({ loading, posts }: Props) {
         ))}
       </div>
       <div className="mt-8 flex justify-center w-full">
-        <button
-          className="text-lg text-light py-4 px-14 bg-primary-300/400 rounded-md"
-          type="button"
-        >
-          コラムをもっと見る
-        </button>
+        <ButtonMore>コラムをもっと見る</ButtonMore>
       </div>
     </>
   );
