@@ -1,46 +1,83 @@
-# Getting Started with Create React App
+# Test Frontend Arent
+
+Template Typescript React Project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+- [Table of Content]()
+  - [Installation](#installation)
+  - [Technologies](#technologies)
+  - [Project structure](#project-structure)
+    - [src folder](#src-folder)
+  - [Project Routes](#project-routes)
+    - [Public routes](#public-routes)
+    - [Private routes (need auth)](#private-routes-need-auth)
 
-### `yarn start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To use this template
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Clone this project
+- Install dependencies from `package.json` to your machine
 
-### `yarn test`
+  ```bash
+  $ yarn
+  # or
+  $ npm install
+  ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Run or build project
+  ```bash
+  $ yarn start
+  $ yarn build
+  # or npm run start / npm run build
+  ```
+- Run mockup
 
-### `yarn build`
+  ```bash
+  $ yarn run mockup
+  ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Run lint
+  ```bash
+  $ yarn run lint
+  $ yarn run lint:fix
+  # to auto fix
+  ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Integrate ESlint, Prettier
+- Tailwindcss and Styled-Component
+- Using TypeScript
+- Functional programming with React hooks
+- Using rechartjs to draw chart
+- Using json-server to create fake server backend
 
-### `yarn eject`
+## Project structure
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### src folder
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **@type**: Declare modules, interface, type for TypeScript
+- **components**: common component
+- **configs**: config for project
+- **hooks**: contains hooks using
+- **pages**: pages of project
+- **resources**: images, global style, fonts, …
+- **services**: services, contains functions get, post .. api (axios e.g)
+- **utils**: functions helpers
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Project Routes
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Public routes
 
-## Learn More
+- **Login**: '/login'
+- **Column Page**: '/column': This is the column page about health
+- **404**: Page not found
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Private routes (need auth)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Top Page**: '/'
+- **My Record**: '/record'
