@@ -12,7 +12,7 @@ function ScrollTop() {
     <button
       type="button"
       onClick={handleScrollTop}
-      className="fixed z-[10] bottom-5 right-5 bg-light rounded-full w-12 h-12 border border-solid border-1 border-gray-400 flex justify-center items-center xl:right-[calc((100vw-960px)/2-60px)] cursor-pointer hover:opacity-75"
+      className="fixed z-[10] bottom-5 right-5 bg-light rounded-full w-12 h-12 border border-solid border-1 border-gray-400 flex justify-center items-center xl:right-[calc((100vw-960px)/2-85px)] cursor-pointer hover:opacity-75"
     >
       <img src={IconArrow} alt="" />
     </button>

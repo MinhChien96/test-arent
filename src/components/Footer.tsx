@@ -34,7 +34,7 @@ function Footer() {
   return (
     <div className="flex justify-center items-center bg-dark-500 text-light">
       <div className="container">
-        <div className="flex flex-row items-center py-14">
+        <div className="flex sm:flex-row sm:gap-0 gap-2 items-center flex-col py-14">
           {menus.map((menu) => (
             <div key={menu.id} className="pr-11 text-xs">
               {menu.name}
